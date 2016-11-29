@@ -3,7 +3,7 @@ require "formula"
 class Bl < Formula
   homepage "https://github.com/okisanjp/homebrew-bl"
   url "https://github.com/okisanjp/homebrew-bl/archive/v1.01.tar.gz"
-  sha256 "c2b1dac07a014a061e472a5c8bdf5adc21e20d0bd1f2f3a56c33c0aacc6a7f22"
+  sha256 "06c45b2bd1c062dcc81e96b2e239f6a3b034bb8bd553f4cb76b9117ce77fb04d"
   head "https://github.com/okisanjp/homebrew-bl.git"
   version "1.01"
 
