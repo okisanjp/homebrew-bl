@@ -17,9 +17,11 @@ function main() {
       print("External Power :", EX)
       printf("Current level  : %4.1f%%\n", CUR/MAX*100)
       if ( TTE < 65535 ) {
-        printf("Time to empty  : %1dd %2dh %2dm\n", TTE/1440, TTE/60, TTE%60)
-      } else if ( FC == "Yes" ) {
-        printf("Time to empty  : %1dd %2dh %2dm \(FULL CHARGED\)\n", TTE/1440, TTE/60, TTE%60)
+        if ( FC == "Yes" ) {
+          printf("Time to empty  : %1dd %2dh %2dm \(FULL CHARGED\)\n", TTE/1440, TTE/60, TTE%60)
+        } else {
+          printf("Time to empty  : %1dd %2dh %2dm\n", TTE/1440, TTE/60, TTE%60)
+        }
       } else {
         print("Time to empty  : No Data")
       }
