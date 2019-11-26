@@ -2,10 +2,10 @@ require "formula"
 
 class Bl < Formula
   homepage "https://github.com/okisanjp/homebrew-bl"
-  url "https://github.com/okisanjp/homebrew-bl/archive/v1.04.tar.gz"
-  sha256 "ea5ec4d884414cee389fa4ce10a4d61c9eb05a408a58f2d1e3df9f57321eba8f"
+  url "https://github.com/okisanjp/homebrew-bl/archive/v1.05.tar.gz"
+  sha256 "856e19a81b23749178286f79c56de762754bcb52eb065192834a137b8c4f8d71"
   head "https://github.com/okisanjp/homebrew-bl.git"
-  version "1.04"
+  version "1.05"
 
   def install
     bin.install "bl"

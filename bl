@@ -1,8 +1,8 @@
 #!/bin/sh
 
 #
-# bl for OSX 10.12.1
-# okisanjp 2016
+# bl for OSX 10.14.6
+# okisanjp 2019
 #
 
 function main() {
