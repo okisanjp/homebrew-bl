@@ -11,7 +11,7 @@ function main() {
       /MaxCapacity/ { MAX=$3 }
       /CurrentCapacity/ { CUR=$3 }
       /InstantTimeToEmpty/{ TTE=$3 }
-      /DesignCapacity/ { DES=$3 }
+      /DesignCapacity"\ =/ { DES=$3 }
       /FullyCharged/ { FC=$3 }
     END {
       print("External Power :", EX)
